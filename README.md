@@ -26,4 +26,6 @@
 
 4. Train set 생성시에는 **label을 추가로 import**
 
-```python preprocessing(’train’, activity, combat, pledge, trade, payment, label) ```
+```python 
+preprocessing('train', activity, combat, pledge, trade, payment, label) 
+```
