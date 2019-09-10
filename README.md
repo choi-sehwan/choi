@@ -24,3 +24,6 @@
  
 3. 필수 데이터 import(***combat***, ***activity***, ***pledge***, ***trade***, ***payment***)
 
+4. Train set 생성시에는 **label을 추가로 import**
+
+```python preprocessing(’train’, activity, combat, pledge, trade, payment, label) ```
