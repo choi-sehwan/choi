@@ -5,9 +5,8 @@
 
 ### 필요 라이브러리
 
-* numpy - version : 1.17.2
-  
-* pandas - version : 0.23.4
+* ***numpy*** - version : 1.17.2
+* ***pandas*** - version : 0.23.4
 
 ### 실행 순서
 
@@ -38,14 +37,21 @@ preprocessing('train', activity, combat, pledge, trade, payment, None)
 
 ***
 
-## **Preprocess**
+## **Model**
 
 ### 필요 라이브러리
 
-* numpy - version : 1.17.2
-  
-* pandas - version : 0.23.4
+* ***numpy*** - version : 1.17.2
+* ***pandas*** - version : 0.23.4
+* ***xgboost*** - version : 0.80
+* ***sklearn.datasets*** - version : 0.19.2
+* ***pickle*** 
 
 ### 실행 순서
 
 1. 필요 라이브러리 
+
+2. preprocess에서 생성한 **train_preprocess_1.csv import**
+(import 시 dataframe 이름은 ***train_preprocess_1로 생성***)
+
+3. 이후 순차적으로 각 cell을 실행( ***survival_binary64***, ***survival_binary4***, ***survival_time***, ***amount_binary1***, ***amount_spent*** )
