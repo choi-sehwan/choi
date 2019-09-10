@@ -54,4 +54,5 @@ preprocessing('train', activity, combat, pledge, trade, payment, None)
 2. preprocess에서 생성한 **train_preprocess_1.csv import**
 (import 시 dataframe 이름은 ***train_preprocess_1로 생성***)
 
-3. 이후 순차적으로 각 cell을 실행  ( ***survival_binary64***, ***survival_binary4***, ***survival_time***, ***amount_binary1***, ***amount_spent*** )
+3. 이후 순차적으로 각 cell을 실행  
+( ***survival_binary64***, ***survival_binary4***, ***survival_time***, ***amount_binary1***, ***amount_spent*** )
