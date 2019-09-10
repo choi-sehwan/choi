@@ -52,6 +52,7 @@ preprocessing('train', activity, combat, pledge, trade, payment, None)
 1. 필요 라이브러리 
 
 2. preprocess에서 생성한 **train_preprocess_1.csv import**
+
 (import 시 dataframe 이름은 ***train_preprocess_1로 생성***)
 
 3. 이후 순차적으로 각 cell을 실행  
