@@ -13,5 +13,5 @@
 
 1. 필요 라이브러리 
 
-2. ***def preprocessing():***을 실행하여
+2. ***def preprocessing():*** 을 실행하여
 
