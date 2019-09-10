@@ -26,6 +26,12 @@
 
 4. Train set 생성시에는 **label을 추가로 import**
 
-* ```python 
+```python 
 preprocessing('train', activity, combat, pledge, trade, payment, label) 
+```
+
+* Test set 생성시에는 **label=None**
+
+```python 
+preprocessing('train', activity, combat, pledge, trade, payment, None) 
 ```
