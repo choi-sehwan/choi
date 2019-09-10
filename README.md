@@ -35,3 +35,17 @@ preprocessing('train', activity, combat, pledge, trade, payment, label)
 ```python 
 preprocessing('train', activity, combat, pledge, trade, payment, None) 
 ```
+
+***
+
+## **Preprocess**
+
+### 필요 라이브러리
+
+* numpy - version : 1.17.2
+  
+* pandas - version : 0.23.4
+
+### 실행 순서
+
+1. 필요 라이브러리 
