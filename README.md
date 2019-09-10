@@ -6,6 +6,7 @@
 ### 필요 라이브러리
 
 * numpy - version : 1.17.2
+  * numpy - version : 1.17.2
 * pandas - version : 0.23.4
 
 ### 실행 순서
